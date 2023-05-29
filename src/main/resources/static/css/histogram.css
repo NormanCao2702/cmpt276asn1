@@ -1,0 +1,101 @@
+.container {
+  display:flex;
+  margin-top: 60px;
+  }
+ 
+ 
+.head h2{
+  text-align: center;
+ }
+ 
+ 
+.left-section {
+  width: 50%;
+  background-color: #dae8ec;
+  margin-right: 4px;
+ }
+
+#button{
+  position: relative;
+  margin-left: 29%;
+  margin-bottom: 5px;
+ }
+.right-section{
+  width: 50%;
+  margin-bottom: 4px;
+ }
+ 
+input {
+  text-align: right;
+}
+.histogram{
+  height: 50%;
+  margin-bottom: 4px;
+  background-color: #dae8ec;
+  align-items: center;
+ }
+
+.newgrade{
+  height: 50%;
+  background-color: #dae8ec;
+  display: flex;
+  align-items: center;
+ }
+ 
+
+.left-section h3{
+  padding-left: 20px;
+  padding-top: 10px;
+ }
+
+ .grade-input{
+  position:relative;
+  margin-left: 100px;
+ }
+ 
+.grade-input td{
+  width: 135px;
+  height: 50px;
+ }
+ 
+ h3{
+  margin: 0;
+  color: #CC0633;
+ }
+
+ .histo{
+  padding-left: 20px;
+  padding-top: 10px;
+ }
+
+ .input_grade{
+  position: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .mytable{
+  position:relative;
+  left: 50%;
+  transform: translateX(-50%);
+ }
+
+#histogramChart{
+  position:relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>assignment1</title>
+   <link rel ="stylesheet" href="css/histogram.css">
+   <script src="js/calculate.js" defer></script>
+   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+   <header class="head">
+       <h2>Histogram Generator</h2>
+   </header>
+   <div class="container">
+       <div class="left-section">
+         <h3 id="lower">Lower Bounds</h3>
+         <div class="grade-input" style="overflow-x:auto;">
+           <table>
+             <tr>
+               <td>Max </td>
+               <td><input type="text" class="input-field" id="max" placeholder="Ex: 100.00"></td>
+           </tr>
+           <tr>
+               <td>A+ </td>
+               <td><input type="text" class="input-field" name = "a+" id="a+" placeholder="Ex: 95.00"></td>
+           </tr>
+           <tr>
+               <td>A </td>
+               <td><input type="text" class="input-field" name = "a" id="a" placeholder="Ex: 90.00"></td>
+           </tr>
+           <tr>
+             <td>A- </td>
+             <td><input type="text" class="input-field" name = "a-" id="a-" placeholder="Ex: 85.00"></td>
+           </tr>
+           <tr>
+             <td>B+ </td>
+             <td><input type="text" class="input-field" name = "b+" id="b+" placeholder="Ex: 80.00"></td>
+           </tr>
+           <tr>
+             <td>B </td>
+             <td><input type="text" class="input-field" name = "b" id="b"placeholder="Ex: 75.00"></td>
+           </tr>
+           <tr>
+             <td>B- </td>
+             <td><input type="text" class="input-field" name = "b-"id="b-"placeholder="Ex: 70.00"></td>
+           </tr>
+           <tr>
+             <td>C+ </td>
+             <td><input type="text" class="input-field" name = "c+"id="c+"placeholder="Ex: 65.00"></td>
+           </tr>
+           <tr>
+             <td>C </td>
+             <td><input type="text" class="input-field" name = "c"id="c" placeholder="Ex: 60.00"></td>
+           </tr>
+           <tr>
+             <td>C- </td>
+             <td><input type="text" class="input-field" name = "c-"id="c-"placeholder="Ex: 55.00"></td>
+           </tr>
+           <tr>
+             <td>D </td>
+             <td><input type="text" class="input-field" name = "d"id="d"placeholder="Ex: 50.00"></td>
+           </tr>
+           <tr>
+             <td>F </td>
+             <td><input type="text" class="input-field" name = "f" id="f"placeholder="Ex: 0.00"></td>
+           </tr>
+           </table>
+        <button id="button">Submit</button>
+        </div>
+
+
+       </div>
+       <div class="right-section">
+         <div class="histogram">
+          <h3 class="histo">Histogram</h3>
+            <canvas id="histogramChart" width=300px height = 125px></canvas>
+         </div>
+
+         <div class="newgrade">
+          <table class="mytable">
+            <tr>
+              <td class="input_grade">New Grade: 
+                <input type="text" name="new_grade" class="box" placeholder="Ex: 98.55">
+                <button id="butt">Submit</button>
+              </td>
+              
+            </tr>
+          </table>
+         </div>
+
+
+       </div>
+
+       
+     </div>
+</body>
+</html>
+
+  
